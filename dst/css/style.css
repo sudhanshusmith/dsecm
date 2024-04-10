@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  color: white;
+}
+
+.video-container {
+  position: relative;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Grey overlay on main screen */
+  z-index: 1;
+}
+
+#phone_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100vh; /* Full height of the screen */
+  z-index: 100; /* Ensure it's above the video and overlay */
+  padding: 50px 20px; /* Add padding for better visibility */
+}
+
+#phone_menu a {
+  color: #fff; /* White text color */
+  font-size: 20px; /* Adjust font size */
+  text-decoration: none;
+  padding: 10px 30px; /* Add padding to the links */
+  display: block; /* Make the links block elements */
+}
+
+#phone_menu a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Greyish hover effect */
+  border-radius: 20px;
+}
+
+.people_card {
+  box-shadow: 0 0 10px 0 rgba(56, 55, 55, 0.2);
+}
+
+.people_card:hover {
+  background-color: rgb(186 230 253);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e1dada;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #56b3e8;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
