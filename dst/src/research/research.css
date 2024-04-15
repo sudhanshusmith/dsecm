@@ -1,0 +1,24 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+#header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.pub {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .pub {
+    font-size: 25px;
+  }
+}
+.pub-title {
+  color: rgba(255, 0, 0, 0.795);
+}
+.pub-content {
+  color: #4776e6;
+}

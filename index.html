@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <meta
       name="description"
       content="DST Centre of Excellence in Climate Modeling"
@@ -11,473 +16,940 @@
       name="keywords"
       content="IIT Delhi, DST COE, Climate Modeling,DST Centre of Excellence in Climate Modeling"
     />
-    <meta
-      name="author"
-      content="Sudhanshu Kumar(https://www.linkedin.com/in/sudhanshusmith/)"
-    />
-    <!-- A Product By Sudhanshu Kumar(https://www.linkedin.com/in/sudhanshusmith/) -->
+    <meta name="author" content="Genzdev Web Services(www.genzdev.com)" />
+
+    <!-- A Product By GENZDEV WEB SERVICES(https://www.genzdev.com/) -->
+
+    <!-- Titles
+    ================================================== -->
     <title>DST Centre of Excellence in Climate Modeling | IIT Delhi</title>
-    <link rel="stylesheet" href="./dst/css/style.css" />
+
+    <!-- Custom Font
+	================================================== -->
     <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&amp;family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&amp;family=Barlow:wght@300;400;600;700&amp;display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style></style>
+      <!-- Sudhanchu font import  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="assets/css/simple-scrollbar.css" />
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/icofont.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/new.css" />
+
+    <script src="assets/js/modernizr.min.js"></script>
   </head>
-  <body>
-    <!-- Navbar -->
-    <nav
-      id="navbar"
-      class="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 py-3 bg-sky-600"
-    >
-      <div class="flex items-center">
-        <span class="text-xl font-semibold"
-          >DST Centre of Excellence in Climate Modeling | IIT Delhi</span
-        >
-      </div>
-      <!-- Hamburger icon -->
-      <div class="flex md:hidden">
-        <button
-          id="hamburger"
-          class="text-white focus:outline-none"
-          aria-label="Toggle Menu"
-        >
-          <svg
-            class="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            ></path>
-          </svg>
-        </button>
-      </div>
-      <!-- Navbar links -->
-      <div class="hidden md:flex md:items-center md:space-x-8">
-        <a href="#about" class="">About</a>
-        <a href="#publications" class="">Publications</a>
-        <a href="#advisors" class="">Advisor</a>
-        <a href="#team" class="">Team</a>
-        <a href="#contact" class="">Contact Us</a>
-      </div>
-    </nav>
 
-    <!-- Phone Menu -->
-    <div
-      id="phone_menu"
-      class="hidden bg-sky-600 flex flex-col justify-center items-left space-y-2 z-70"
-    >
-      <a href="#about" class="menu_item">About</a>
-      <a href="#publications" class="menu_item">Publications</a>
-      <a href="#advisors" class="menu_item">Advisor</a>
-      <a href="#team" class="menu_item">Team</a>
-      <a href="#contact" class="menu_item">Contact Us</a>
-    </div>
+  <body data-spy="scroll" data-offset="170" data-target=".navigation-area">
+    <!--********************************************************-->
+    <!--********************* SITE CONTENT *********************-->
+    <!--********************************************************-->
+    <div class="site-content">
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Site Header
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <header class="site-header header-style-one">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12">
+              <div class="navigation-area">
+                <div class="main-nav">
+                  <h1 class="d-block mx-auto mt-4 text-center" id="main-header-title">
+                    <a href="index.html"> DST Centre of Excellence in Climate Modeling,</a> </br>
+                    <a href="https://home.iitd.ac.in/"> IIT Delhi</a>
+                  </h1>
 
-    <!-- Background Video -->
-    <div class="video-container">
-      <video autoplay muted loop class="h-screen w-full object-cover relative">
-        <source src="./dst/videos/wind_mill.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div class="video-overlay"></div>
-    </div>
+                  <!-- <h1>
+                    <a href="https://dst.gov.in/">Department of Science &amp; Technology GoI </a>
+                  </h1> -->
+                </div>
+                <!-- Site Branding -->
+                <!-- <div class="site-branding">
+                  <a href="index.html#hero-block">
+                    <h1 class="main-title">
+                      DST COE in Climate Modeling |
+                      <a href="https://cas.iitd.ac.in/"> CAS</a> |
+                      <a href="https://home.iitd.ac.in/"> IIT Delhi</a>
+                    </h1>
+                  </a>
 
-    <!-- Your hero content -->
-    <div class="absolute bottom-10 z-10 w-full text-white">
-      <div class="flex justify-center items-center px-5">
-        <p
-          class="text-lg xl:text-2xl bg-[#00000094] py-2 px-5 rounded-lg mt-4 text-center"
-          id="changingText"
-        >
-          Loading ...
-        </p>
-      </div>
-    </div>
+                  <a href="https://dst.gov.in/" class="secondary-title"
+                    ><h1>Dept. of Science &amp; Tech. | dst.gov.in</h1></a
+                  >
+                </div> -->
+                <!--  /.site-branding -->
+</br>
+                <!-- Site Navigation -->
+                <div class="site-navigation">
+                  <nav class="navigation">
+                      <!-- Main Menu -->
+                      <div class="menu-wrapper">
+                          <div class="menu-content">
+                              <ul class="mainmenu">
+                                  <li>
+                                      <a class="nav-link" href="#about-block">About</a>
+                                  </li>
+                                  <li>
+                                      <a class="nav-link" href="#publications">Research</a>
+                                  </li>
+                                  <li class="dropdown">
+                                      <a class="nav-link" href="#">People</a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="./dst/src/people/advisor.html">Advisors</a></li>
+                                          <li><a href="./dst/src/people/team.html">Team</a></li>
+                                          <li><a href="./dst/src/people/executive.html">Executive Committee</a></li>
+                                      </ul>
+                                  </li>
+                                  <li>
+                                      <a class="nav-link" href="#careers">Opportunities</a>
+                                  </li>
+                                  <li>
+                                      <a class="nav-link" href="#contact-block">Contact Us</a>
+                                  </li>
+                              </ul>
+                              <!-- /.menu-list -->
+                          </div>
+                          <!-- /.menu-content -->
+                      </div>
+                      <!-- /.menu-wrapper -->
+                  </nav>
+              </div>
+              
+                <!--  /.site-navigation -->
 
-    <!-- About content  -->
-    <div id="about" class="pt-24">
-      <h3 class="text-5xl font-semibold text-sky-600 text-center pb-8">
-        About
-      </h3>
-      <div class="grid grid-cols-2 gap-y-6 lg:gap-y-8">
-        <div class="col-span-2 lg:col-span-1 flex justify-center items-center">
-          <img
-            src="./dst/assets/about.jpg"
-            alt="About Image"
-            class="h-72 px-5 object-cover"
-          />
+                <div class="header-navigation-right">
+                  <!--~./ search-wrap ~-->
+                  <div class="hamburger-menus">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+                <!--~./ header-navigation-right ~-->
+              </div>
+              <!-- /.navigation-area -->
+            </div>
+            <!-- /.col-12 -->
+          </div>
+          <!-- /.row -->
         </div>
-        <div class="col-span-2 lg:col-span-1 flex justify-center items-center">
-          <p class="px-5 py-3 xl:pr-[10%] text-justify">
-            The present state of the planet, with the rapid changing of climate,
-            and global warming becoming more apparent around the world, is one
-            of the most worrying concerns the mankind has today. Being a young
-            and developing country, India, at the crossroads of development and
-            sustainability, will find it much more challenging in times to come.
-            In order to achieve the ambitious economic goal of five trillion
-            USD, while it takes the reforms that were long promised i.e.
-            relaxation in regulations and controlling, reformation of labour
-            laws, privatisation of state entities, and investment in
-            infrastructure development, it should make sure it is achieved not
-            at the cost of its climate — a highly complex and tough task that
-            needs the cooperation of the private and public sectors. In this
-            regard, to address certain pressing issues of climate change in
-            India, IIT Delhi has taken a major initiative and created the DST
-            Centre of Excellence in Climate Modeling with the support of the
-            DST, GoI.
-          </p>
+        <!-- /.container-fluid -->
+        <div class="mobile-sidebar-menu sidebar-menu">
+          <div class="overlaybg"></div>
         </div>
-        <div
-          class="col-span-2 lg:col-span-1 order-1 lg:order-2 flex justify-center items-center"
-        >
-          <img
-            src="./dst/assets/about.jpg"
-            alt="About Image"
-            class="h-72 px-5 object-cover"
-          />
-        </div>
-        <div class="col-span-2 lg:col-span-1 order-2 lg:order-1">
-          <p class="px-5 py-3 xl:pl-[10%] text-justify">
-            The present state of the planet, with the rapid changing of climate,
-            and global warming becoming more apparent around the world, is one
-            of the most worrying concerns the mankind has today. Being a young
-            and developing country, India, at the crossroads of development and
-            sustainability, will find it much more challenging in times to come.
-            In order to achieve the ambitious economic goal of five trillion
-            USD, while it takes the reforms that were long promised i.e.
-            relaxation in regulations and controlling, reformation of labour
-            laws, privatisation of state entities, and investment in
-            infrastructure development, it should make sure it is achieved not
-            at the cost of its climate — a highly complex and tough task that
-            needs the cooperation of the private and public sectors. In this
-            regard, to address certain pressing issues of climate change in
-            India, IIT Delhi has taken a major initiative and created the DST
-            Centre of Excellence in Climate Modeling with the support of the
-            DST, GoI.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div id="publications" class="pt-20">
-      <h3 class="text-5xl font-semibold text-sky-600 text-center pb-8 lg:pb-16">
-        Publications
-      </h3>
-      <p class="text-center">This Section is remaining as of now.</p>
-    </div>
-
-    <div id="advisors" class="pt-20">
-      <h3 class="text-5xl font-semibold text-sky-600 text-center pb-8 lg:pb-16">
-        Advisor
-      </h3>
-      <div class="grid grid-cols-3 gap-y-12 gap-x-4">
-        <div
-          class="col-span-3 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-10 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/skmishra.jpg"
-            class="h-60 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Prof S.K.Mishra
-          </h5>
-          <p class="text-xs text-center px-10">
-            YES Foundation Chair Professor of Climate Modeling, Professor,
-            Centre for Atmospheric Sciences, IIT Delhi, India
-          </p>
-          <button class="mt-5 hover:text-sky-600">
-            <img src="./dst/icons/browser.png" class="h-6 inline-block" /> Visit
-            Website
-          </button>
-        </div>
-        <div
-          class="col-span-3 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-10 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/skmishra.jpg"
-            class="h-60 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Prof S.K.Mishra
-          </h5>
-          <p class="text-xs text-center px-10">
-            YES Foundation Chair Professor of Climate Modeling, Professor,
-            Centre for Atmospheric Sciences, IIT Delhi, India
-          </p>
-          <button class="mt-5 hover:text-sky-600">
-            <img src="./dst/icons/browser.png" class="h-6 inline-block" /> Visit
-            Website
-          </button>
-        </div>
-        <div
-          class="col-span-3 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-10 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/skmishra.jpg"
-            class="h-60 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Prof S.K.Mishra
-          </h5>
-          <p class="text-xs text-center px-10">
-            YES Foundation Chair Professor of Climate Modeling, Professor,
-            Centre for Atmospheric Sciences, IIT Delhi, India
-          </p>
-          <button class="mt-5 hover:text-sky-600">
-            <img src="./dst/icons/browser.png" class="h-6 inline-block" /> Visit
-            Website
-          </button>
-        </div>
-        <div
-          class="col-span-3 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-10 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/skmishra.jpg"
-            class="h-60 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Prof S.K.Mishra
-          </h5>
-          <p class="text-xs text-center px-10">
-            YES Foundation Chair Professor of Climate Modeling, Professor,
-            Centre for Atmospheric Sciences, IIT Delhi, India
-          </p>
-          <button class="mt-5 hover:text-sky-600">
-            <img src="./dst/icons/browser.png" class="h-6 inline-block" /> Visit
-            Website
-          </button>
-        </div>
-        <div
-          class="col-span-3 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-10 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/skmishra.jpg"
-            class="h-60 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Prof S.K.Mishra
-          </h5>
-          <p class="text-xs text-center px-10">
-            YES Foundation Chair Professor of Climate Modeling, Professor,
-            Centre for Atmospheric Sciences, IIT Delhi, India
-          </p>
-          <button class="mt-5 hover:text-sky-600">
-            <img src="./dst/icons/browser.png" class="h-6 inline-block" /> Visit
-            Website
-          </button>
-        </div>
-        <div
-          class="col-span-3 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-10 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/skmishra.jpg"
-            class="h-60 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Prof S.K.Mishra
-          </h5>
-          <p class="text-xs text-center px-10">
-            YES Foundation Chair Professor of Climate Modeling, Professor,
-            Centre for Atmospheric Sciences, IIT Delhi, India
-          </p>
-          <button class="mt-5 hover:text-sky-600">
-            <img src="./dst/icons/browser.png" class="h-6 inline-block" /> Visit
-            Website
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div id="team" class="pt-20">
-      <h3 class="text-5xl font-semibold text-sky-600 text-center pb-8 lg:pb-16">
-        Team
-      </h3>
-      <div class="grid grid-cols-4 gap-y-12">
-        <div
-          class="col-span-4 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-6 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/team/debi.jpg"
-            class="h-40 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Debi Prasad Bhuyan
-          </h5>
-
-          <p class="text-xs text-center px-10">
-            Research Scholar, Centre for Atmospheric Sciences, IIT Delhi
-          </p>
-        </div>
-        <div
-          class="col-span-4 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-6 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/team/debi.jpg"
-            class="h-40 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Debi Prasad Bhuyan
-          </h5>
-
-          <p class="text-xs text-center px-10">
-            Research Scholar, Centre for Atmospheric Sciences, IIT Delhi
-          </p>
-        </div>
-        <div
-          class="col-span-4 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-6 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/team/debi.jpg"
-            class="h-40 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Debi Prasad Bhuyan
-          </h5>
-
-          <p class="text-xs text-center px-10">
-            Research Scholar, Centre for Atmospheric Sciences, IIT Delhi
-          </p>
-        </div>
-        <div
-          class="col-span-4 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-6 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/team/debi.jpg"
-            class="h-40 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Debi Prasad Bhuyan
-          </h5>
-
-          <p class="text-xs text-center px-10">
-            Research Scholar, Centre for Atmospheric Sciences, IIT Delhi
-          </p>
-        </div>
-        <div
-          class="col-span-4 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-6 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/team/debi.jpg"
-            class="h-40 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Debi Prasad Bhuyan
-          </h5>
-
-          <p class="text-xs text-center px-10">
-            Research Scholar, Centre for Atmospheric Sciences, IIT Delhi
-          </p>
-        </div>
-        <div
-          class="col-span-4 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-6 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/team/debi.jpg"
-            class="h-40 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Debi Prasad Bhuyan
-          </h5>
-
-          <p class="text-xs text-center px-10">
-            Research Scholar, Centre for Atmospheric Sciences, IIT Delhi
-          </p>
-        </div>
-        <div
-          class="col-span-4 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-6 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/team/debi.jpg"
-            class="h-40 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Debi Prasad Bhuyan
-          </h5>
-
-          <p class="text-xs text-center px-10">
-            Research Scholar, Centre for Atmospheric Sciences, IIT Delhi
-          </p>
-        </div>
-        <div
-          class="col-span-4 lg:col-span-1 border bg-[#0284c730] flex flex-col justify-center items-center py-4 mx-6 rounded-xl people_card"
-        >
-          <img
-            src="./dst/assets/team/debi.jpg"
-            class="h-40 object-cover rounded-xl"
-          />
-          <h5 class="text-lg text-center text-sky-600 font-semibold mt-4">
-            Debi Prasad Bhuyan
-          </h5>
-
-          <p class="text-xs text-center px-10">
-            Research Scholar, Centre for Atmospheric Sciences, IIT Delhi
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div id="contact" class="pt-24">
-      <h3 class="text-5xl font-semibold text-sky-600 text-center pb-8 lg:pb-16">
-        Contact Us
-      </h3>
-      <div class="grid grid-cols-2 gap-4">
-        <div
-          class="col-span-2 lg:col-span-1 flex flex-col justify-center items-center"
-        >
-          <img
-            src="./dst/assets/skmishra.jpg"
-            class="h-60 object-cover rounded-full"
-          />
-          <div class="pt-8 px-8">
-            <h3 class="Prof. S. K. Mishra"></h3>
-            <p>Principal Investigator</p>
-            <p>DST Centre of Excellence in Climate Modeling,</p>
-            <p>Room No. 414, Block VI, IIT Delhi</p>
-            <p>Phone: +91-11-2659-1390</p>
-            <p>Email: skm@iitd.ac.in</p>
+      </header>
+      <!--~~./ end site header ~~-->
+      <!--~~~ Sticky Header ~~~-->
+      <div id="sticky-header" class="active"></div>
+      <!--~./ end sticky header ~-->
+<br><br><br><br><br><br><br><br>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				Hero Block
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div id="hero-block" class="hero-block bg-white hero-block-one">
+        <div class="element-group">
+          <div class="element one">
+            <img src="assets/images/element/rectangle2.png" alt="Element" />
           </div>
         </div>
-        <div class="col-span-2 lg:col-span-1 flex justify-center items-center">
-          <img
-            src="./dst/assets/contact.jpg"
-            alt="Contact Image"
-            class="h-[25rem] px-5 object-cover"
-          />
+
+        <div
+          class="waves-effect bottom"
+          style="background-image: url('assets/images/shape/shape-bottom1.png')"
+        ></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 cards-block">
+              <!-- Testimonial Slider -->
+              <div id="hero-slider" class="swiper-container hero-slider-one">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="hero-content-area" id="top-card-section">
+                      <!-- <h2 class="hero-title">
+                        <span
+                          >DST Centre of Excellence in Climate Modeling</span
+                        >
+                      </h2> -->
+                      <div class="card careers card-body card-gradient hero_card-hover">
+                        <h3 class="title">A major initiative for skillful simulation and projection of India's climate</h3>
+                      </div>
+                      <div class="card careers card-body card-gradient hero_card-hover">
+                        <h3 class="title">
+                          Developing a modeling framework for fine scale projections of India’s future climate to assess the impact of climate change on different sectors
+                        </h3>
+                      </div>
+                      <div class="card careers card-body card-gradient hero_card-hover">
+                        <h3 class="title">
+                          Addressing unique issues of climate variability, change and sectoral impacts in India
+                        </h3>
+                      </div>
+                      <div class="card careers card-body card-gradient hero_card-hover">
+                        <h3 class="title">
+                          Educating a new generation of researchers in numerical modeling of the Earth’s system
+                        </h3>
+                      </div>
+
+                      <!-- For New tagline -->
+                      <!-- <div class="card careers card-body card-gradient">
+                        <h3 class="title">
+                          Place the tagline here
+                        </h3>
+                      </div> -->
+
+
+                      <!-- /.hero-title -->
+
+                      <!-- /.hero-content-area -->
+                    </div>
+                  </div>
+
+
+
+
+
+                  <!-- <div class="swiper-slide">
+                    <div class="hero-content-area">
+
+                      <h3 style="color: #1B238B; padding-right: 30px;"> Educating a new generation of researchers in numerical modeling of the Earth’s system  </h3>
+
+
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="hero-mockup-area">
+                <div class="hero-mockup-thumb one">
+                   <div class="header-image-group">
+                     <img
+                    src="assets/images/others/Data-pana.png"
+                    alt="Thumb" class="computer-img img-responsive" />
+                    
+                    <div>
+                      <a href="https://earth.nullschool.net/" target="_blank">
+                        <img 
+                      src="assets/images/new/2.jpg"
+                      class="earth-header-img img-responsive"
+                      alt="Thumb" />
+                      
+                      </a>
+
+                    </div>
+
+
+
+
+                  <!--
+                  <img
+                    src="assets/images/header-computer.jpg"
+                    alt="Thumb"
+                    class="header-img-computer"
+                  />
+                  </div> -->
+                  <div class="element-group">
+                    <div class="element one">
+                      <img
+                        src="assets/images/element/circle2.png"
+                        alt="Element"
+                        style="opacity: 0.1"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- /.hero-mockup-area -->
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+      <!-- /.hero-block -->
 
-    <div id="footer" class="py-10 lg:py-8 mt-16 bg-[#0284c730] px-5">
-      <p class="text-center py-1">
-        All rights reserved © 2021 | DST Centre of Excellence in Climate
-        Modeling
-      </p>
-      <p class="text-center py-1">
-        Developed By:
-        <a
-          href="https://www.linkedin.com/in/sudhanshusmith/"
-          class="text-sky-600"
-          >Sudhanshu Kumar❤️
-        </a>
-      </p>
-    </div>
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Start About Us Block
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div id="about-block" class="about-us-block style-one bg-white-smoke">
+        <div
+          class="waves-effect top"
+          style="background-image: url('assets/images/shape/shape-top1.png')"
+        ></div>
+        <div
+          class="waves-effect bottom"
+          style="background-image: url('assets/images/shape/shape-bottom2.png')"
+        ></div>
+        <div class="element-group">
+          <div class="element one">
+            <img src="assets/images/element/rectangle1.png" alt="Element" />
+          </div>
+          <div class="element two">
+            <img src="assets/images/element/circle3.png" alt="Element" />
+          </div>
+        </div>
+        <div class="container-full position-relative border">
 
-    <script src="./dst/js/main.js"></script>
+          <video class="position-absolute top-0 left-0 z-index--1 w-100 opacity-75 d-none d-md-block custom-opacity" autoplay loop muted>
+            <source src="./assets//videos/dot/2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <!-- Title Row -->
+          <div class="container">
+            <div class="row align-items-center md-wrap-reverse ">
+            
+  
+  
+              <div class="col-lg-12">
+  
+                <div class="text-feature-block md-mrb-55">
+                  <div class="section-title" style="margin-bottom: 0;">  </br></br></br></br></br>
+  
+                    <h2 class="title-main" style="margin-bottom: 10px;">ABOUT</h2>
+                  </div>
+  
+                  <p class="text-justify about-text">The present state of the planet, with the rapid changing of climate, and global warming
+                    becoming more apparent around the world, is one of the most worrying concerns the
+                    mankind has today. Being a young and developing country, India, at the crossroads of
+                    development and sustainability, will find it much more challenging in times to come. In
+                    order to achieve the ambitious economic goal of five trillion USD, while it takes the reforms
+                    that were long promised i.e. relaxation in regulations and controlling, reformation of
+                    labour laws, privatisation of state entities, and investment in infrastructure development, it
+                    should make sure it is achieved not at the cost of its climate — a highly complex and tough
+                    task that needs the cooperation of the private and public sectors. In this regard, to address
+                    certain pressing issues of climate change in India, IIT Delhi has taken a major initiative and
+                    created the DST Centre of Excellence in Climate Modeling with the support of the DST,
+                    GoI.</p>
+                    <p class="text-justify about-text">
+                      The country needs reliable climate projection for future planning and policy making
+                      to make informed decisions against the backdrop of global warming and climate change.
+                      This is deliverable only when we have reliable models - models successful in capturing the
+                      present-day climate of India. However, all the available climate models possess
+                      unacceptably large biases, especially with rainfall and temperature over India, but they are
+                      doing reasonably good over the other regions and at the global scale. The Centre of
+                      Excellence is in the process of developing an India Centric Climate Model, which can
+                      simulate the regional climate of India and can be used for future climate projections at
+                      district level to assess the impacts of climate change on agriculture, energy, health, human
+                      resource, water resource, and ultimately on the economy of India.
+                    </p>
+                </div>
+              </div>
+              <!-- /.col-lg-7 -->
+            </div>
+          </div>
+
+
+        </div>   </br></br></br></br></br>
+        </br></br></br></br>
+        <!-- /.container -->
+      </div>
+      <!--~~./ end about us block ~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Start Team Block
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div class="team-block pd-t-130" id="publications">
+        <div class="element-group">
+          <div class="element one">
+            <img src="assets/images/element/circle-helf2.png" alt="Element" />
+          </div>
+        </div>
+        <div class="container ml-b-55 mt-5">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title" style="margin-bottom: 0;">
+                <h2 class="title-main" style="margin-bottom: 10px;">RESEARCH</h2>
+              </div>
+              <div class="container mt-5">
+                <div class="row">
+                    <!-- Research Category Card 1 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./assets/images//research/1.jpg" class="card-img-top" alt="Research Category 1">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">Research Category 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo arcu.</p>
+                                <a href="./dst/src/research/cat1.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Research Category Card 1 -->
+            
+                    <!-- Research Category Card 2 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./assets/images//research/2.jpg" class="card-img-top" alt="Research Category 2">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">Research Category 2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo arcu.</p>
+                                <a href="./dst/src/research/cat2.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Research Category Card 2 -->
+            
+                    <!-- Research Category Card 3 -->
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./assets/images//research/3.jpg" class="card-img-top" alt="Research Category 3">
+                            <div class="card-body">
+                                <h5 class="card-title font-weight-bold">Research Category 3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo arcu.</p>
+                                <a href="./dst/src/research/cat3.html" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Research Category Card 3 -->
+                </div>
+              </div>
+            
+              <!-- /.section-title -->
+            </div>
+            <!-- /.col-lg-7 -->
+          </div>
+        </div>
+        <!-- /.container -->
+      </div>
+
+     
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Start Portfolio Block
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <div
+        id="portfolio-block"
+        class="portfolio-block bg-white-smoke style-one"
+      >
+        <div
+          class="waves-effect top"
+          style="background: url('assets/images/shape/shape-top2.png')"
+        ></div>
+        <div
+          class="waves-effect bottom"
+          style="background: url('assets/images/shape/shape-bottom4.png')"
+        ></div>
+        <div class="element-group">
+          <div class="element one">
+            <img src="assets/images/element/circle3.png" alt="Element" />
+          </div>
+
+        </div>
+
+        <!--~~./ end portfolio block ~~-->
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Testimonial Block
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <!-- <div
+          class="testimonial-block ptb-130"
+          id="testimonial-section"
+          style="background-color: #fff"
+        >
+          <div class="container"> -->
+            <!-- <div class="row justify-content-center">
+              <div class="col-lg-6 col-md-8">
+                <div class="section-title text-center">
+                  <h2 class="title-main">TESTIMONIALS</h2>
+                </div>
+
+              </div>
+            </div> -->
+            <!-- <div class="section-title" style="margin-bottom: 0;">
+              <h2 class="title-main text-center" style="margin-bottom: 10px;">TESTIMONIALS</h2>
+            </div>
+            <div class="row">
+              <div class="col-10 mx-auto"> -->
+                <!-- Testimonial Slider -->
+                <!-- <div class="swiper-container testimonial-slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="client-testimonial">
+                          <div class="details">
+                            <p class="text-justify">
+                              It was a pleasure to visit the newly established
+                              Center of Excellence at IIT Delhi. I would like to
+                              commend the Department of Science and Technology
+                              (DST) and IIT Delhi for their vision to launch
+                              such an important and timely initiative with young
+                              and brilliant leaders. Such a center in an
+                              academic environment will not only advance the
+                              science of climate change, but will also help
+                              train a new generation of climate scientists, and
+                              will contribute to science-based policy
+                              formulations for adaptation to, and mitigation of,
+                              climate change.
+                            </p>
+                          </div>
+                          <div class="row">
+                            <div
+                              class="
+                                col-lg-6
+                                testimonail-person
+                                col-sm-8
+                                mx-auto
+                                text-center
+                              "
+                            >
+                              <img
+                                src="./assets/images/testimonail/JagadishShukla.jpg"
+                                class="d-block"
+                                alt="Prof. Jagadish Shukla"
+                              />
+                              <h4 class="client-name">Prof. Jagadish Shukla</h4>
+                              <p class="client-designation color-purple">
+                                University Professor, George Mason University,
+                                USA
+                              </p>
+                            </div>
+                          </div> -->
+                          <!-- /.details -->
+
+                          <!-- /.client-area -->
+                        <!-- </div> -->
+                        <!-- /.client-testimonial -->
+                      <!-- </div> -->
+                      <!-- /.testimonial-item -->
+                    <!-- </div>
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="client-testimonial">
+                          <div class="details">
+                            <p class="text-justify">
+                              This is an initiative of great importance in
+                              enabling socio-economic sustainability and
+                              resiliency for India. The vision articulated for
+                              this endeavor by a dynamic team of researchers –
+                              to enable skillful projection of future Indian
+                              climate for robust policy making in various
+                              sectors to mitigate the impacts and; build the
+                              future generation of researchers in various
+                              climate related fields – is highly commendable and
+                              impactful. I am delighted to collaborate in this
+                              endeavor with the team in making this is a
+                              success.
+                            </p>
+                          </div>
+                          /.details
+
+                          <div class="row">
+                            <div
+                              class="
+                                col-lg-6
+                                testimonail-person
+                                col-sm-8
+                                mx-auto
+                                text-center
+                              "
+                            >
+                              <img
+                                src="./assets/images/testimonail/Rajagopalan_Balaji.jpg"
+                                class="d-block"
+                                alt="Prof. Balaji Rajagopalan"
+                              />
+                              <h4 class="client-name">
+                                Prof. Balaji Rajagopalan
+                              </h4>
+                              <p class="client-designation color-purple">
+                                Professor & Chair, Department of Civil,
+                                Environmental, and Architectural Engineering,
+                                University of Colorado, Boulder, USA
+                              </p>
+                            </div>
+                          </div>
+                        </div> -->
+                        <!-- /.client-testimonial -->
+                      <!-- </div> -->
+                      <!-- /.testimonial-item -->
+                    <!-- </div> -->
+                    <!-- <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="client-testimonial">
+                          <div class="details">
+                            <p class="text-justify">
+                              The CoE is established to develop models, methods
+                              and skills to address burning issues of climate
+                              change in India. It is a highly interdisciplinary
+                              centre that is impressively scaling up and
+                              successfully attracting talents from diverse
+                              backgrounds. I am glad to see the centre doing
+                              very well and will be more than happy to support
+                              the team in taking it to greater heights.
+                            </p>
+                          </div> -->
+                          <!-- /.details -->
+
+                          <!-- <div class="row">
+                            <div
+                              class="
+                                col-lg-6
+                                testimonail-person
+                                col-sm-8
+                                mx-auto
+                                text-center
+                              "
+                            >
+                              <img
+                                src="./assets/images/testimonail/pvm.jpg"
+                                class="d-block"
+                                alt="Prof. V. Ramgopal Rao"
+                              />
+                              <h4 class="client-name">Prof. V. Ramgopal Rao</h4>
+                              <p class="client-designation color-purple">
+                                Director, Indian Institute of Technology Delhi
+                              </p>
+                            </div>
+                          </div> -->
+
+                          <!-- /.client-area -->
+                        <!-- </div> -->
+                        <!-- /.client-testimonial -->
+                      <!-- </div> -->
+                      <!-- /.testimonial-item -->
+                    <!-- </div>
+                  </div> -->
+                  <!-- Add Pagination -->
+                  <!-- <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div> -->
+            <!-- /.row -->
+          <!-- </div> -->
+          <!-- /.container -->
+        <!-- </div> -->
+        <!--~~./ end testimonial block ~~-->
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Work Process Block
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="work-process-block pd-t-130 pd-b-130" id="careers">
+          <div class="element-group">
+            <div class="element one">
+              <img src="assets/images/element/wave.png" alt="Element" />
+            </div>
+            <div class="element two">
+              <img src="assets/images/element/star1.png" alt="Element" />
+            </div>
+          </div>
+          <div class="container"><br><br><br><br>
+            <!-- <h2 class="title oppertunities-section">OPPORTUNITIES</h2> -->
+            <div class="section-title" style="margin-bottom: 0;">
+              <h2 class="title-main" style="margin-bottom: 10px;">OPPORTUNITIES</h2><br>
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="text-feature-block ms-mrb-50 text-justify">
+                  <!-- <div class="sub-title">
+
+                  </div> -->
+                  <p>We invite researchers from natural science and pertaining
+                    interdisciplinary areas to join the DST Centre of Excellence
+                    in Climate Modeling. Currently, we are looking for
+                    candidates to work in the following research areas</p>
+                  <p>
+
+                    The research positions in these areas are available at
+                    various levels, e.g., Junior Research Fellow, Senior
+                    Research Fellow, Project Associate, Research Associate. The
+                    qualification for these positions is as per Institute and
+                    DST’s guidelines. The salary for these positions is based on
+                    qualification and experience.
+                  </p>
+                  <p>
+                    Besides, we host short and long term visitors and will be
+                    more than happy to welcome you if you want to visit for
+                    research collaborations; in that case please feel free to
+                    contact Dr. Saroj Kanta Mishra at skm@iitd.ac.in.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="col-lg-12" class="careers-item">
+                  <div class="card careers card-body">
+                    <h3 class="title">Numerical Modeling of the Atmosphere</h3>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="card careers card-body">
+                    <h3 class="title">
+                      Application of High-Performance Computing (HPC) in Climate
+                      Modeling
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="card careers card-body">
+                    <h3 class="title">
+                      Application of Machine Learning and Deep Learning in
+                      Climate Modeling
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="card careers card-body">
+                    <h3 class="title">Monsoon Process Studies</h3>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="card careers card-body">
+                    <h3 class="title">
+                      Influence of Climate Change on Vector-Borne Diseases
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.container -->
+
+      </br></br></br></br></br>
+    </br></br></br></br></br></br></br></br></br></br></br></br>
+          
+
+
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                Start Contact Form Block
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div id="contact-block" class="contact-form-block style-two pd-b-130" style="background-color: white;">
+          <div class="element-group">
+            <div class="element one">
+              <img src="assets/images/element/triangle1.png" alt="Element" />
+            </div>
+            <div class="element two">
+              <img src="assets/images/element/circle3.png" alt="Element" />
+            </div>
+          </div>
+          <div class="container ml-b-40">  </br></br></br></br></br>
+          </br></br></br></br></br></br></br>
+            <!-- <div class="row">
+              <div class="col-lg-5 col-md-6">
+                <div class="section-title">
+                  <h2 class="title oppertunities-section pb-0 mb-0">CONTACT US</h2>
+                </div>
+              </div>
+            </div> -->
+            <div class="section-title" style="margin-bottom: 0;">
+              <h2 class="title-main" style="margin-bottom: 10px;">CONTACT US</h2>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+              <div class="col-lg-6 col-sm-12">
+                <div class="contact-info-block pd-b-100">
+                  <div class=" ml-b-30">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12">
+                        <div class="contact-info-item">
+                          <div class="contact-img mb-4">
+                            <img
+                              src="./assets/images/team/skm.jpg"
+                              alt=""
+                              class="d-block m-auto"
+                            />
+                          </div>
+                          <h3 class="title"><a href="https://dcecm.iitd.ac.in/skm/website/index.html" target="_blank"> Prof. S. K. Mishra </a></h3>
+                          <small class="title-designation"
+                            >Principal Investigator</small
+                          >
+                          <div class="card-info">
+                            <p>
+                              DST Centre of Excellence in Climate Modeling, <br> Room
+                              No. 414, Block VI, IIT Delhi <br />
+
+                              Phone: +91-11-2659-1390
+                              <br />
+                              Email: skm@iitd.ac.in
+                            </p>
+                          </div>
+                          <!-- /.card-info -->
+                        </div>
+                        <!-- /.contact-info-item -->
+                      </div>
+                      <!-- /.col-lg-4 -->
+                    </div>
+                    <!-- /.row -->
+                  </div>
+                </div>
+                <!-- /.contact-form-area -->
+              </div>
+              <div class="col-lg-6 col-sm-12">
+                <img
+                  src="./assets/images/others/233.jpg"
+                  alt=""
+                  class="d-block contact-block-img m-auto"
+                />
+              </div>
+            </div>
+            <!-- /.col-lg-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!--~~./ end contact form block ~~-->
+
+      <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            Start Site Footer
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+      <footer class="site-footer">
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Start Footer Widget Area
+							~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <!-- <div class="footer-widget-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-12">
+                <aside class="widget widget_about">
+                  <h2 class="widget-title">About Us</h2>
+                  <div class="widget-content">
+                    <p class="text-justify">
+                      DST Centre of Excellence in climate modeling is a major
+                      initiative taken at IIT Delhi and funded by the Department
+                      of Science and Technology, Government of India to develop
+                      an India-Centric Climate Model (ICCM) to address certain
+                      pressing issues of climate change in India, and to educate
+                      manpower in numerical modeling of the Earth system and
+                      climate.
+                    </p>
+                  </div>
+                </aside>
+              </div>
+
+              <div class="col-lg-4 col-md-12 text-center">
+                <aside class="widget widget_links">
+                  <h2 class="widget-title">Quick Links</h2>
+                  <div class="widget-content">
+                    <ul>
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                          <li><a href="index.html">Home</a></li>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <li>
+                            <a href="https://cas.iitd.ac.in/" target="_blank"
+                              >CAS</a
+                            >
+                          </li>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <li>
+                            <a href="https://home.iitd.ac.in/" target="_blank"
+                              >IIT Delhi</a
+                            >
+                          </li>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <li><a href="#people">People</a></li>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <li><a href="#testimonial-section">Testimonials</a></li>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <li><a href="#careers">Opportunities</a></li>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                          <li><a href="#contact-block">Contact Us</a></li>
+                        </div>
+
+                      </div>
+                      <li><a href="index.html">Home</a></li>
+                      <li>
+                        <a href="https://cas.iitd.ac.in/" target="_blank"
+                          >CAS</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://home.iitd.ac.in/" target="_blank"
+                          >IIT Delhi</a
+                        >
+                      </li>
+                      <li><a href="#people">People</a></li>
+                      <li><a href="#testimonial-section">Testimonials</a></li>
+                      <li><a href="#careers">Opportunities</a></li>
+                      <li><a href="#contact-block">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </aside>
+              </div>
+
+              <div class="col-lg-4 col-md-12 text-center">
+                <h4 class="text-center" style="font-weight: 400;">Write to us</h4>
+                <h5>Prof. S. K. Mishra</h6>
+                <a href="mailto:skm@iitd.ac.in" class="d-block text-center">skm@iitd.ac.in</a>
+
+              </div>
+
+            </div>
+          </div>
+        </div> -->
+
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+									Start Footer Bottom Area
+							~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class="footer-bottom-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="footer-bottom-content text-center">
+                  <p>
+                    Website Visitors :
+                    <img
+                      src="https://counter3.fcs.ovh/private/freecounterstat.php?c=qxr5yh34asdt18jfd2kkyn77ue1j5mmc"
+                      style="border: 0"
+                    />
+                  </p>
+                  <div class="copyright-text text-center">
+                    <p>
+                      All rights reserved © 2021 | DST Centre of Excellence in
+                      Climate Modeling.
+                    </p>
+                    <div>
+                      <small class="text-muted">Developed by <a class="dev-link" target="_blank" href="https://www.genzdev.com/">GENZDEV WEB SERVICES</a></small>
+                    </div>
+                  </div>
+                  <!--~./ end copyright text ~-->
+                </div>
+              </div>
+              <!--~./ col-12 ~-->
+            </div>
+          </div>
+        </div>
+        <!--~./ end footer bottom area ~-->
+      </footer>
+      <!--~./ end site footer ~-->
+    </div>
+    <!--~~./ end site content ~~-->
+
+    <!-- All The JS Files
+			================================================== -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/simple-scrollbar.min.js"></script>
+    <script src="assets/js/background-parallax.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/theia-sticky-sidebar.min.js"></script>
+    <script src="assets/js/ResizeSensor.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/packery-mode.pkgd.min.js"></script>
+    <script src="assets/js/scrolla.jquery.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/isInViewport.jquery.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/new.js"></script>
+    <!-- main-js -->
   </body>
 </html>
+<!-- A Product By GENZDEV WEB SERVICES(https://www.genzdev.com/) -->

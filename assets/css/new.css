@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px) {
+  #main-header-title {
+    font-size: 35px;
+  }
+}
+
+#main-header-title {
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  /* this font is used here and in navigation bar only  */
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: opacity 0.3s ease; /* Added transition effect */
+  opacity: 0; /* Initially set opacity to 0 */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1; /* Set opacity to 1 on hover */
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu a {
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  color: #007bff;
+  font-weight: 500;
+}
+
+.custom-opacity {
+  opacity: 0.8; /* Set the opacity value as desired */
+}
+
+.about-text {
+  color: black;
+}
+
+@media screen and (min-width: 600px) {
+  .about-text {
+    color: whitesmoke;
+  }
+}
