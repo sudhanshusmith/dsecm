@@ -1,8 +1,22 @@
-body {
-  font-family: "Rubik", sans-serif;
+@font-face {
+  font-family: "CustomFont";
+  src: url("../../../assets/font/SangBleuKingdom-Regular.woff") format("woff");
 }
 
-#header {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+body {
+  font-family: "CustomFont", sans-serif;
+  color: black;
+}
+
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.name:hover {
+  color: #007bff;
 }

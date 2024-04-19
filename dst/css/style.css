@@ -6,18 +6,15 @@ body {
   color: white;
 }
 
-.video-container {
-  position: relative;
-}
-
-.video-overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Grey overlay on main screen */
-  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.9); /* Adjust the opacity here */
+  z-index: 0; /* Ensure the overlay is behind the content */
+  overflow: hidden;
 }
 
 #phone_menu {

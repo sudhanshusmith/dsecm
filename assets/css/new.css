@@ -1,7 +1,7 @@
 @media screen and (max-width: 1200px) {
-  #main-header-title {
+  /* #main-header-title {
     font-size: 35px;
-  }
+  } */
 }
 
 #main-header-title {
@@ -16,6 +16,7 @@
   display: none;
   position: absolute;
   z-index: 1;
+  width: max-content;
   background-color: #fff;
   padding: 10px;
   border: 1px solid #ccc;
@@ -34,16 +35,12 @@
 
 .dropdown-menu a {
   color: #333;
-  text-decoration: none;
 }
 
 .dropdown-menu a:hover {
   color: #007bff;
-  font-weight: 500;
-}
-
-.custom-opacity {
-  opacity: 0.8; /* Set the opacity value as desired */
+  text-decoration: underline;
+  padding-left: 8px;
 }
 
 .about-text {
@@ -54,4 +51,22 @@
   .about-text {
     color: whitesmoke;
   }
+}
+
+/* Research css  */
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.research-card {
+  transition: transform 0.3s ease;
+}
+
+.research-card:hover {
+  transform: scale(1.1);
+}
+
+.card-text {
+  font-size: 1.1rem;
 }

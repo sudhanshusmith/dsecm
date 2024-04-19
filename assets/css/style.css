@@ -72,6 +72,12 @@ URI: https://www.genzdev.com/
 # Typography
 --------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,100italic,300italic,400italic,700italic);
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../font/SangBleuKingdom-Regular.woff") format("woff");
+}
+
 html {
   font-size: 100%;
 }
@@ -84,7 +90,7 @@ body {
   line-height: 1.5em;
   color: #646464;
 
-  font-family: "Rubik", sans-serif;
+  font-family: "CustomFont", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -111,7 +117,7 @@ h6 {
   -webkit-font-smoothing: antialiased;
   margin-bottom: 15px;
   /* font-family: "Philosopher", sans-serif; */
-  font-family: "Rubik", sans-serif;
+  font-family: "CustomFont", sans-serif;
 }
 
 h1 {
@@ -3596,7 +3602,7 @@ input::-moz-focus-inner {
   color: #4776e6;
   background-color: whitesmoke;
   /* font-family: "Philosopher", sans-serif; */
-  font-family: "Rubik", sans-serif;
+  font-family: "CustomFont", sans-serif;
   border-color: whitesmoke;
 }
 .btn-default.btn-smoke:hover,
@@ -3619,7 +3625,7 @@ input::-moz-focus-inner {
   -webkit-transition: ease-in 0.25s;
   transition: ease-in 0.25s;
   /* font-family: "Philosopher", sans-serif; */
-  font-family: "Rubik", sans-serif;
+  font-family: "CustomFont", sans-serif;
   background: #4776e6;
   font-size: 20px;
   padding: 10px 35px 9px;
@@ -3686,7 +3692,7 @@ input::-moz-focus-inner {
   padding: 11px 30px;
   border-radius: 5px;
   /* font-family: "Philosopher", sans-serif; */
-  font-family: "Rubik", sans-serif;
+  font-family: "CustomFont", sans-serif;
 }
 @media only screen and (max-width: 991px) {
   .read-more {
@@ -3709,7 +3715,7 @@ input::-moz-focus-inner {
   color: black;
   font-size: 18px;
   /* font-family: "Philosopher", sans-serif; */
-  font-family: "Rubik", sans-serif;
+  font-family: "CustomFont", sans-serif;
   text-transform: capitalize;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3956,7 +3962,7 @@ label {
 .form-group label {
   color: #4776e6;
   font-size: 16px;
-  font-family: "Philosopher", sans-serif;
+  font-family: "CustomFont", sans-serif;
   font-weight: 700;
   margin-bottom: 14px;
   cursor: pointer;
@@ -4560,11 +4566,10 @@ a:active {
     font-size: 16px;
     font-weight: normal;
     text-transform: capitalize;
-    text-decoration: none;
     position: relative;
     color: black;
     /* font-family: "Philosopher", sans-serif; */
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    font-family: "CustomFont", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     letter-spacing: 0.1em;
     vertical-align: middle;
@@ -4910,7 +4915,7 @@ a:active {
   -webkit-transform: translateZ(0px);
   transform: translateZ(0px);
   vertical-align: middle;
-  font-family: "Hind", sans-serif;
+  font-family: "CustomFont", sans-serif;
   letter-spacing: 0.015em;
   border-top: 1px solid rgba(255, 255, 255, 0.075);
   text-transform: capitalize;
@@ -5295,7 +5300,7 @@ a:active {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  font-family: "Philosopher", sans-serif;
+  font-family: "CustomFont", sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .post-navigation {
@@ -5477,26 +5482,26 @@ a:active {
   line-height: 1.65em;
 }
 .hero-block.hero-block-one {
-  padding-top: 205px;
+  padding-top: 10px;
   padding-bottom: 175px;
   position: relative;
   overflow: hidden;
 }
 @media only screen and (max-width: 1366px) {
   .hero-block.hero-block-one {
-    padding-top: 130px;
+    padding-top: 10px;
     padding-bottom: 120px;
   }
 }
 @media only screen and (max-width: 1199px) {
   .hero-block.hero-block-one {
-    padding-top: 110px;
+    padding-top: 10px;
     padding-bottom: 100px;
   }
 }
 @media only screen and (max-width: 991px) {
   .hero-block.hero-block-one {
-    padding-top: 170px;
+    padding-top: 40px;
     padding-bottom: 110px;
   }
 }
@@ -6073,7 +6078,7 @@ a:active {
 .frontpage-banner-section.frontpage-banner-style-two .hero-title {
   color: #fff;
   mix-blend-mode: difference;
-  font-family: "Barlow", sans-serif;
+  font-family: "CustomFont", sans-serif;
   font-size: 176px;
   font-weight: 700;
   margin-left: -8px;
@@ -6149,7 +6154,7 @@ a:active {
 .frontpage-banner-section.frontpage-banner-style-two
   .form-group-btn
   .read-more-text {
-  font-family: "Barlow", sans-serif;
+  font-family: "CustomFont", sans-serif;
   font-size: 20px;
   font-weight: normal;
 }
@@ -7320,7 +7325,7 @@ a:active {
   transition: all 0.25s;
 }
 .team-items-list .team-item.style-two .team-item-inner .team-info .team-name {
-  font-family: "Hind", sans-serif;
+  font-family: "CustomFont", sans-serif;
   color: white;
   font-weight: normal;
   line-height: 1.2;
@@ -8035,7 +8040,7 @@ a:active {
   transition: 0.45s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
   color: white;
   font-size: 20px;
-  font-family: "Philosopher", sans-serif;
+  font-family: "CustomFont", sans-serif;
   opacity: 0;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
@@ -8815,7 +8820,7 @@ a:active {
   font-weight: 700;
   font-size: 16px;
   z-index: 2;
-  font-family: "Philosopher", sans-serif;
+  font-family: "CustomFont", sans-serif;
 }
 @media only screen and (max-width: 991px) {
   .our-skill-block .progress .progress-bar > span {
@@ -9445,7 +9450,7 @@ a:active {
   color: black;
 }
 .pricing-box .pricing-btn-area .btn-default {
-  font-family: "Philosopher", sans-serif;
+  font-family: "CustomFont", sans-serif;
   font-size: 20px;
   padding: 9px 40px;
   background-color: #4776e6;
@@ -9494,7 +9499,7 @@ a:active {
 }
 .pricing-box .pricing-content > ul > li:before {
   content: "\eed6";
-  font-family: "IcoFont";
+  font-family: "CustomFont";
   font-size: 20px;
   padding-right: 15px;
   color: #7bc043;
@@ -9686,7 +9691,7 @@ a:active {
   margin-bottom: 10px;
   font-size: 35px;
   color: black;
-  font-family: "Philosopher", sans-serif;
+  font-family: "CustomFont", sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9710,7 +9715,7 @@ a:active {
 .fanfact-promo-numbers .promo-number .promo-title {
   font-size: 20px;
   margin-bottom: 0px;
-  font-family: "Hind", sans-serif;
+  font-family: "CustomFont", sans-serif;
   text-transform: capitalize;
   font-weight: normal;
   color: #b7b7b7;
@@ -11256,7 +11261,7 @@ a:active {
 .comments-area .comment-metadata .author {
   font-size: 18px;
   font-weight: 700;
-  font-family: "Philosopher", sans-serif;
+  font-family: "CustomFont", sans-serif;
   line-height: 1.25em;
 }
 @media only screen and (max-width: 767px) {
@@ -11643,7 +11648,7 @@ a:active {
 .widget-post-list .post .entry-title {
   font-size: 16px;
   margin-bottom: 10px;
-  font-family: "Hind", sans-serif;
+  font-family: "CustomFont", sans-serif;
   font-weight: normal;
   line-height: 1.45em;
   margin-top: -3px;
@@ -12323,7 +12328,7 @@ a:active {
   outline: none;
   border: 1px solid #ececec;
   width: 100%;
-  font-family: "Hind", sans-serif;
+  font-family: "CustomFont", sans-serif;
 }
 .widget_search .input-group .form-controller:focus,
 .widget_product_search .input-group .form-controller:focus {
@@ -12682,7 +12687,7 @@ img.header-img-computer {
 }
 
 .main-nav h1 {
-  font-size: 48px;
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 1200px) {
